@@ -34,6 +34,7 @@ Needs [PlatformIO](https://platformio.org/). Partition layout is in `partitions/
 
 - The build runs `scripts/build/apply_pinned_webserver_patch.py`, which patches the Arduino WebServer parser temporarily and restores it after. Don't remove it.
 - The dashboard is prebuilt into `src/dashboard_html.h` (gzipped). The editable HTML source isn't in this repo, so the dashboard can't be regenerated from here.
+- This is a flash ready firmware, but far from being finished.
 
 ## Layout
 
