@@ -44,3 +44,7 @@ Needs [PlatformIO](https://platformio.org/). Partition layout is in `partitions/
 - `lib/as608/`: fingerprint sensor code
 - `lib/littlefs_file_set/`: LittleFS storage
 - `docs/sf2/reference/`: SF2 reference workbook
+
+## AI Disclosure
+
+For transparency, I used AI tools (mainly `Claude`) to help build this project. Specifically, AI assisted with generating initial boilerplate and module scaffolding (e.g., for hardware drivers like `as608` and `littlefs_file_set`), developing unit tests and drafting documentations, and refactoring and code completion during development. I directed the work and reviewed most of the code and documentation, though I haven't checked every single line. Please keep in mind that this project is AI-assisted and may still contain errors I might've missed.
